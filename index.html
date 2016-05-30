@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ultima Aplicación</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="acciones" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/susequi2.jpg','imagenes/entre2.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn="Regresar" data-back-btn-theme="b">
+    
+    <h1>CARRERAS</h1>
+</div>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:640px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+<div data-role="main" class="ui-content">
+</div>
+<div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+   <a href="index1.html" target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+   <h2>BIOLOGA MARINA</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>EQUINOTERAPIA</h2>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>ENTRENADORA DE DELFINES</h2>
+   </a>
+   </li>
+   <div data-role="collapsible" data-content-theme="b"> 
+       <h2>DATOS DEL ALUMNO</h2>
+       <div>
+        <p>4 "H"<br>
+    Diseña Aplicaciones Moviles (DAM)<br>
+    cbtis 16</p>
+       </div>
+       </div>
+  </ul>
+</div>
+<div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+<div>
+    <h4>carrera</h4>
+</div> 
+   <img src="imagenes/mil.png" width="25" height="25">
+   </div>
+    <h4>Andrea Calderón Sánchez</h4>
+</div>
+    </div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>EQUINOTERAPIA</h1>
+  </div>
+<div data-role="collapsible" data-content-theme="b"> 
+       <h2>¿Que es Equinoterapia?</h2>
+       <div> 
+ <p>La <b>Equinoterapia</b> o las Terapias Ecuestres son tratamientos que recurren a actividades con caballos con el propósito de contribuir positivamente al desarrollo cognitivo, físico, emocional, social y ocupacional de las personas que sufren algún tipo de discapacidad o necesidad especial. <br>
+
+En estas terapias, orientadas por un equipo multidisciplinar, el caballo es una herramienta de trabajo capaz de integrar, rehabilitar y reeducar, con el fin último de que el sujeto tratado alcance una mejor calidad de vida. <br>
+
+La utilización del caballo para la rehabilitación de personas discapacitadas física o psíquicamente no es nueva. En la antigüedad, los griegos ya recomendaban montar a caballo para prevenir y curar diversas dolencias. A través del tiempo, el uso de esta terapia se extendió por toda Europa.<br>
+
+La equinoterapia está considerada como una terapia integral que, además de cumplir funciones fisioterapéuticas, ofrece amplios beneficios en el área psicológica. Aplicar la equinoterapia en pacientes con alguna discapacidad psíquica o motora requiere una preparación muy especial por parte de aquellas personas interesadas en ejercerla, pues no sólo necesitan adquirir sus bases sino tener habilidades ecuestres y conocimientos sobre fisioterapia, psicología y pedagogía.</p>
+<center><a href="http://www.peques.com.mx/la_equinoterapia_curacion_a_caballo.htm">mas informacion</a></center>
+</div> 
+       </div>
+<div data-role="collapsible" data-content-theme="b"> 
+       <h2>¿Con que trabaja?</h2>
+       <div>
+       <center><p><b>En la Equinoterapia se utiliza el caballo como mediador e instrumento terapéutico</b></p></center>
+       <p>La equinoterapia se utiliza en los siguientes casos:
+<ul>
+<li>Patologías neurológicas:parálisis cerebral, esclerosis múltiple,hemiplejia y poliomielitis</li>
+<li>Transtornos mentales y psiquiátricos</li>
+<li>Retraso Mental</li>
+<li>Autismo</li>
+<li>Síndrome de Down</li>
+<li>Dificultades escolares:aprendizaje, atencion, hiperactividad, fracaso escolar y desmotivación</li>
+<li>Retraso psicomotor</li>
+<li>Discapacidad auditiva, visual y sensorial</li>
+<li>Problemas conductuales y de adaptación social</li>
+<li>Transtornos emocionales</li>
+<li>Enfermedades neurodegenerativas</li>
+<li>Alteraciones alimenticias:anorexia y bulimia</li>
+</ul>
+</p>
+</div>
+<div data-role="collapsible" data-content-theme="b"> 
+       <h2>Planteles</h2>
+       <div>
+       <center><a href="http://www.emagister.com.mx/s/equinoterapia-220788.htm">cursos de equinoterapia</a></center>
+       </div>
+       </div>
+       </div>
+       <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/susequi2.jpg',1)"><img src="imagenes/susequi1.jpg" width="900" height="549" id="Image4"></a></center>
+<div data-role="footer" align="center" data-theme="c" data-position="fixed">
+  <div>
+<div>
+    <h4>carrera</h4>
+</div> 
+   <img src="imagenes/equi.png" width="25" height="25">
+   </div>
+    <h4>Andrea Calderón Sánchez</h4>
+</div>
+    </div>  
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Entrenador de delfines</h1>
+  </div>
+       <div data-role="content" >
+       <div>
+<div data-role="collapsible" data-content-theme="b"> 
+       <h2>¿Qué es un Entrenador de deldines?</h2>
+       <div>
+ <p>Si has ido a parques temáticos marinos, probablemente has visto entrenadores de delfines mostrando los últimos trucos de los animales. Sin embargo, hay mucho más en el entrenamiento de delfines que tan sólo preparar shows. Los entrenadores de delfines son científicos dedicados al comportamiento y la salud de los delfines. Ellos no sólo entrenan sino que también cuidan a los delfines; a menudo trabajan con una comunidad mundial de otros entrenadores. Si estás interesado en entrenar delfines, trabaja como voluntario en un zoológico o acuario para ver si este tipo de carrera es para ti.</p>
+<center><a href="http://www.ehowenespanol.com/requisitos-entrenador-delfines-info_270009/">mas informacion</a></center>
+       </div>
+       </div>
+       <div data-role="collapsible" data-content-theme="b"> 
+       <h2>¿Con que trabaja?</h2>
+       <div>
+ <p>Los programas de entrenamiento de animales exóticos son escasos e infrecuentes. Regularmente, duran dos años y terminan en un certificado o diploma. El programa de gestión y formación de animales exóticos de Moorpark College es uno popular, algunas instalaciones que emplean rutinariamente entrenadores de delfines contratan graduados de este programa. Un grado en el entrenamiento de animal exótico, te capacitará no sólo con los conocimientos necesarios para entrenar a los animales, sino también con las herramientas para garantizar su bienestar general.</p>
+<center><iframe width="420" height="315" src="https://www.youtube.com/embed/QGSMmhvJ2Lw" frameborder="0" allowfullscreen></iframe></center>
+       </div>
+<div data-role="collapsible" data-content-theme="b"> 
+       <h2>Guía para la carrera</h2>
+       <div>
+<center> <a href="http://es.wikihow.com/convertirte-en-entrenador-de-delfines">pasos a seguir</a></center>
+       </div>
+       <center>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/entre2.jpg',1)"><img src="imagenes/entre1.jpg" width="324" height="226" id="Image5"></a>
+  </center>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+<div>
+    <h4>carrera</h4>
+</div> 
+   <img src="imagenes/del.png" width="25" height="25">
+   </div>
+    <h4>Andrea Calderón Sánchez</h4>
+</div>
+    </div>
+</body>
+</html>
